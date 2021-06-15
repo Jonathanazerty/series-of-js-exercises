@@ -22,31 +22,3 @@
      })
   
   })();
-
-/* 
-
-    let userInput = document.getElementById("dob-day","dob-month", "dob-year").value;
-    let dob = new Date(userInput);
-    if(userInput==null || userInput== '') {
-        document.getElementById("message").innerHTML = "**Choose a date please";
-        return false;
-    }
-
-    else {
-    //calculate month difference from current date in time  
-    let month_diff = Date.now() - dob.getTime();  
-      
-    //convert the calculated difference in date format  
-    let age_dt = new Date(month_diff);   
-      
-    //extract year from date      
-    let year = age_dt.getUTCFullYear();  
-      
-    //now calculate the age of the user  
-    let age = Math.abs(year - 1970);  
-
-    console.log(age);
-
-    return document.getElementById("run").innerHTML = "You are" + age + " years old !";
-    }
-*/
