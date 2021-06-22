@@ -1,14 +1,20 @@
-/* becode/javascript
- *
- * /06-objects/01-generate-object/script.js - 6.1: générer un object
- *
- * coded by leny@BeCode
- * started at 08/05/2019
- */
 
-// NOTE: don't focus on the existing code structure for now.
-// You will have time to focus on it later.
 
 (() => {
-    // your code here
+
+    document.getElementById("run").addEventListener("click", function(){
+
+        var myIntroduction = {
+            lastName : "Kalonji",
+            firstName : "Jonathan",
+            age : 30,
+            city : "Antwerp",
+            country : "Belgium"
+        }
+        
+        
+
+        console.log("Hey curious reader, my name is " + myIntroduction.firstName + " "+ myIntroduction.lastName + " "+"I'm " + myIntroduction.age + " years old"+ " and I live in " + myIntroduction.country + " in the beautiful city of " + myIntroduction.city);
+    });
+    
 })();
